@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- Inicio do cabeçalho do site, aqui são definidos estilo css, javascript, titulo, dentre outras configurações -->
+	<header>
+		<title>Meu site</title> <!-- Define um título para o site -->
+		<meta charset="utf-8">	<!-- Pemite usar acentuação e pontuações da linha portuguesa, depois do HTML5 não precisa fechar com "/>" -->
+	</header>
+	<!-- Fim do cabeçalho -->
+
+	<!-- No body deve ser escrito todo o corpo do site -->
+	<body>
+		
+		<!-- Inicia um formulario -->
+		<form>
+			Usuario:<br> 
+			<!-- Entrada de texto -->
+			<input type="text" name="usuario"><br>
+
+			Senha:<br> 
+			<!-- Entrada de senha, texto não visivel -->
+			<input type="password" name="senha"><br>
+
+			<br>
+			Carregue uma foto:<br>
+			<!-- Permite a entrada de um arquivo. O accept define os tipos de arquivos permitidos,
+			nesse caso foi escolhido imagem e os tipos mais comuns de imagem, mas poderiam ter sido escolhido outros tipos. -->
+			<input type="file" name="foto" accept="image/jpeg, image/pjpeg, image/png, image/jpg"><br>
+
+			<br>
+			sexo: <br>
+			<!-- Radio são botões de seleção. Ao colocar o mesmo name, não se permite que ambos sejam selecionados aos mesmo
+			tempo. -->
+			<input type="radio" name="sexo" value="F"> Feminino <br>
+			<input type="radio" name="sexo" value="M"> Masculino <br>
+			
+
+			<br>
+			Doenças:<br>
+			<!-- Checkbox permitem que vária ou nenhuma caixa seja selecionada -->
+			<input type="checkbox" name=""> Diabestes<br>
+			<input type="checkbox" name=""> Hipertenção<br>
+			<input type="checkbox" name=""> Depressão<br>
+			<input type="checkbox" name=""> Câncer<br>
+
+
+			<br>
+			Natural de: <br>
+			<!-- Cria uma lista de seleção, são indicadas para quando se tem opções muito grandes, como lista de cidades e estados. -->
+			<select>
+				<option>Feira de Santana	</option>
+				<option>Salvador			</option>
+				<option>São Gonçalo dos Campos</option>
+				<option>Cachoeira			</option>
+				<option>São Felix			</option>
+				<option>Vitória da Conquista</option>
+				<option>Cruz das Almas		</option>
+				<option>Alagoinhas			</option>
+
+			</select>
+
+
+
+			<br><br>
+			Observação: <br>
+			<!-- Permite a entrada de texto com muitas linhas -->
+			<textarea> </textarea>
+
+			<br><br>
+			<!-- Inputes do tipo submit enviam o formulário para ser processado por alguma linguagem-->
+			<input type="submit" name="enviar">
+		</form>
+		<!-- FIm do formulário -->
+
+	</body>
+	<!-- Fim do corpo do site -->
+
+</html>
