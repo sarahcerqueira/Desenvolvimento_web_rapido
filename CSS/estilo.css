@@ -3,3 +3,26 @@ External: arquivo por fora
 Internal: estilo na página html
 Inline: aplica o estilo na tag html
 */
+
+
+.fundo{
+	background-image: url(../imagens/mahou.png);
+	/*background-repeat: repeat;*/
+	background-repeat: no-repeat;
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	background-attachment: fixed; /* Não aompanha a barra de rolagem*/
+	/*background-attachment: scroll;*/ /* Acompanha a barra de rolagem */
+	
+	/* Não é obrigado a ter dois valores, pode ter somente 1.
+
+	 	primeiro valor: left, center rigth;
+		segundo valor: top, center, bottom; 
+	*/
+	background-position: center center;
+
+}
+
+
+body{
+	background: purple url(../imagens/mahou.png) no-repeat top left;

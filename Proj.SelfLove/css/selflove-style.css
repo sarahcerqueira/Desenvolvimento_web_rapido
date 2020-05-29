@@ -1,0 +1,45 @@
+body{
+
+	background-image: url(../images/madeiram.jpg);
+	font : 20px "Comic Sans MS", cursive, sans-serif;;
+}
+
+
+a{
+	color: #1C1C1C;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px;
+}
+
+#capa{
+	width: 1000px;
+}
+
+#container{
+	border: 1px solid white;
+	width: 1000px;
+}
+
+#menu{
+	background: #F8F8FF;
+	/*Espaçamento entre os dados e as bordas do conatiner, ou seja espaçamento interno.*/
+	padding: 18px; 
+}
+
+#conteudo{
+	background: rgba(255, 255, 255, .7);
+	padding: 10px;
+}
+
+#rodape{
+	color: #F8F8FF;
+}
+
+.centralizar{
+	text-align: center;
+}
+
+.img-food{
+	border: 5px solid #F8F8FF ;
+}
