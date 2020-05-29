@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- Inicio do cabeçalho do site, aqui são definidos estilo css, javascript, titulo, dentre outras configurações -->
+	<header>
+		<title>Meu site</title> <!-- Define um título para o site -->
+		<meta charset="utf-8">	<!-- Pemite usar acentuação e pontuações da linha portuguesa, depois do HTML5 não precisa fechar com "/>" -->
+		<style type="text/css">
+
+			/*Tamanhos
+					px	-> tamanho fixo
+					% 	-> tamanho relativo em relação a janela
+					em 	-> tamanho relatico ao container pai
+			*/
+
+			div{
+				font: normal 20px "Comic Sans MS", cursive, sans-serif;
+				border:  2px inset gray; /* borda na mesma linha*/
+				margin: 10px;
+			}
+
+			#conteudo{	/* definição de borda cada linha*/
+				border-color:green;
+				border-width: 10px;
+				border-style: dashed solid;
+			}
+
+			p{	/* cada borda com uma  configuração */
+				border-color: gray orange yellow black;
+				border-width: 10px 8px 6px 4px;
+				border-style: dotted  outset dashed solid;
+				margin: 10px;
+
+				font-size: 20px;
+				font-weight: bold; /* normal, [100 a 900]*/
+				font-style: italic;
+				text-decoration: underline; 
+				/*text-decoration: overline;*/
+				/*text-decoration: line-through;*/
+
+			}
+
+			h1{ /* bordas (top bottom) (left right)*/
+				border-color:  purple pink;
+				border-width: 6px 10px;
+				border-style:  solid dotted;
+				/* conjunto de fontes seguras
+				https://www.w3schools.com/cssref/css_websafe_fonts.asp
+				*/
+				font-family: Verdana, Geneva, sans-serif; /*familia de fontes em sequencia*/
+
+				
+			}
+
+		</style>
+		
+	</header>
+	<!-- Fim do cabeçalho -->
+ 
+	<!-- No body deve ser escrito todo o corpo do site -->
+	<body id="conteudo">
+
+		<h1><a href="https://developer.mozilla.org/pt-PT/docs/Web/CSS/borders">Documentação</a></h1>
+
+		<p> As divs organizam os elementos um abaixo do outro, segue o exemplo abaixo.</p>		
+			<div>Elemento 1</div>
+			<div>Elemento 2</div>
+			<div>Elemento 3</div>
+
+
+
+	</body>
+	<!-- Fim do corpo do site -->
+
+</html>
